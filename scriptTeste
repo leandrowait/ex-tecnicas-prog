@@ -1,0 +1,4 @@
+select * 
+from USUARIO.VENDAS V
+inner join USUARIO.ITENSVENDA IV
+on (V.CODIGO = IV.CODVENDA)
