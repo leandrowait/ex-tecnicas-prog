@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
   <interface id="1" language="java" name="negocio.VendaDAO" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/VendaDAO.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="89" y="101"/>    
+    <position height="-1" width="-1" x="866" y="117"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </interface>  
   <class id="2" language="java" name="negocio.DireitosAutoraisFachada" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/DireitosAutoraisFachada.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="263" y="110"/>    
+    <position height="-1" width="-1" x="235" y="89"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <interface id="3" language="java" name="negocio.CalculoDireitosAutorais" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/CalculoDireitosAutorais.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="703" y="303"/>    
+    <position height="-1" width="-1" x="442" y="514"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </interface>  
   <interface id="4" language="java" name="negocio.EditoraDAO" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/EditoraDAO.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="467" y="137"/>    
+    <position height="-1" width="-1" x="1096" y="311"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </interface>  
   <interface id="5" language="java" name="negocio.LivroDAO" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/LivroDAO.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="950" y="146"/>    
+    <position height="-1" width="-1" x="1105" y="159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,7 +49,7 @@
   <class id="6" language="java" name="negocio.CalculoDireitosAutoraisComposite" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/CalculoDireitosAutoraisComposite.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="703" y="128"/>    
+    <position height="-1" width="-1" x="243" y="326"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -58,22 +58,73 @@
   </class>  
   <interface id="7" language="java" name="negocio.AutorDAO" project="ExercCamadaNegocio2_Editora" 
     file="/ExercCamadaNegocio2_Editora/src/negocio/AutorDAO.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1195" y="146"/>    
+    <position height="-1" width="-1" x="1128" y="463"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <association id="8">    
+  <class id="8" language="java" name="negocio.AdicionalExclusividade" project="ExercCamadaNegocio2_Editora" 
+    file="/ExercCamadaNegocio2_Editora/src/negocio/AdicionalExclusividade.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="180" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="negocio.BonusVendaLivros" project="ExercCamadaNegocio2_Editora" 
+    file="/ExercCamadaNegocio2_Editora/src/negocio/BonusVendaLivros.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="445" y="655"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="negocio.BonusTotalVendas" project="ExercCamadaNegocio2_Editora" 
+    file="/ExercCamadaNegocio2_Editora/src/negocio/BonusTotalVendas.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="714" y="655"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="negocio.DireitosAutorais" project="ExercCamadaNegocio2_Editora" 
+    file="/ExercCamadaNegocio2_Editora/src/negocio/DireitosAutorais.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="158" x="509" y="267"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="12">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="15">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="9" name="listaCalcDireitosAutorais"/>      
-      <multiplicity id="10" minimum="0" maximum="2147483647"/>    
+      <attribute id="16" name="listaCalcDireitosAutorais">        
+        <position height="18" width="125" x="366" y="419"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="11">    
+  <realization id="18">    
+    <bendpoint x="243" y="514"/>    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="3"/>  
   </realization>  
